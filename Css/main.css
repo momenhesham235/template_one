@@ -437,3 +437,169 @@
 }
 
 /* End about */
+
+/* Cool share button made by: csozi | Website: english.csozi.hu*/
+.buttons {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: fit-content;
+    width: fit-content;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.buttons:hover {
+    padding: 60px;
+}
+
+.buttons:hover .button {
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.main-button {
+    position: relative;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border: none;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+    border-radius: 50%;
+    transition: 0.2s;
+    z-index: 100;
+}
+
+.button {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    border: none;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 12px rgba(202, 202, 202, 0), -5px -5px 12px rgba(255, 255, 255, 0);
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.discord-button:hover {
+    background: #5865F2;
+}
+
+.buttons:hover .discord-button {
+    translate: 70px 0px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.twitter-button:hover {
+    background: #1CA1F1;
+}
+
+.buttons:hover .twitter-button {
+    translate: 47px -47px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.reddit-button:hover {
+    background: #FF4500;
+}
+
+.buttons:hover .reddit-button {
+    translate: 0px -70px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.messenger-button:hover {
+    background: #0093FF;
+}
+
+.buttons:hover .messenger-button {
+    translate: -47px -47px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.pinterest-button:hover {
+    background: #F0002A;
+}
+
+.buttons:hover .pinterest-button {
+    translate: -70px 0px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.instagram-button:hover {
+    background: #F914AF;
+}
+
+.buttons:hover .instagram-button {
+    translate: -47px 47px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.snapchat-button:hover {
+    background: #FFFC00;
+}
+
+.buttons:hover .snapchat-button {
+    translate: 0px 70px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+
+.whatsapp-button:hover {
+    background: #25D366;
+}
+
+.buttons:hover .whatsapp-button {
+    translate: 47px 47px;
+    box-shadow: 5px 5px 12px #cacaca, -5px -5px 12px #ffffff;
+}
+/* Start Contact */
+.contact {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+  }
+  .contact .info {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    text-align: center;
+  }
+  .contact .info .label {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+  }
+  .contact .info .link {
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  .contact .info .social {
+    display: flex;
+    justify-content: centers;
+    margin-top: 20px;
+    /* font-size: 16px; */
+  }
+  @media (max-width: 767px) {
+    .contact .info .label,
+    .contact .info .link {
+      font-size: 25px;
+    }
+  }
+  /* Start Footer */
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .footer span {
+    font-weight: bold;
+    color: var(--main-color);
+  }
+  /* End Footer */
